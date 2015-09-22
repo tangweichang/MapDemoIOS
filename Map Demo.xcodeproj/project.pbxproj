@@ -12,6 +12,7 @@
 		327E30501B79B6E800F5716B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327E304E1B79B6E800F5716B /* Main.storyboard */; };
 		327E30521B79B6E800F5716B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327E30511B79B6E800F5716B /* Assets.xcassets */; };
 		327E30551B79B6E800F5716B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327E30531B79B6E800F5716B /* LaunchScreen.storyboard */; };
+		327E305D1B7A8AFD00F5716B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E305C1B7A8AFD00F5716B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		327E30511B79B6E800F5716B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		327E30541B79B6E800F5716B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		327E30561B79B6E800F5716B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327E305C1B7A8AFD00F5716B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327E305D1B7A8AFD00F5716B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		327E303E1B79B6E800F5716B = {
 			isa = PBXGroup;
 			children = (
+				327E305C1B7A8AFD00F5716B /* CoreLocation.framework */,
 				327E30491B79B6E800F5716B /* Map Demo */,
 				327E30481B79B6E800F5716B /* Products */,
 			);
@@ -283,6 +287,7 @@
 				327E305B1B79B6E800F5716B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
